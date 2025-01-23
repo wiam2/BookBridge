@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "9WJNhvZeDwGAebJCfonBGEy+FMsSRk4qvGKDXnlLFHY=",
+  "Source": "BookBridge-backend",
+  "BasePath": "_content/BookBridge-backend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
