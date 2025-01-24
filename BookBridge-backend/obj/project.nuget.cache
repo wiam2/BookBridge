@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y4Cyr9tiV8Y=",
+  "dgSpecHash": "+kS5ioBARAY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\I511\\OneDrive\\Bureau\\book-bredg\\BookBridge\\BookBridge-backend\\BookBridge-backend.csproj",
+  "projectFilePath": "C:\\Users\\I511\\OneDrive\\Bureau\\test5\\BookBridge\\BookBridge-backend\\BookBridge-backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\I511\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\I511\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

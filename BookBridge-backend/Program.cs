@@ -2,15 +2,24 @@ using Microsoft.EntityFrameworkCore;
 using System;
 
 using BookBridge_backend.Models;
+using BookBridge_backend.Services;
+using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
+builder.Services.AddScoped<AccountService>();
+builder.Services.AddScoped<LecteurService>();
+builder.Services.AddScoped<BiblioService>();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddIdentity<User, IdentityRole>()
+    .AddEntityFrameworkStores<LibraryContext>()
+    .AddDefaultTokenProviders();
 builder.Services.AddDbContext<LibraryContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection") ??

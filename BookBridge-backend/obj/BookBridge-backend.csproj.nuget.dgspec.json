@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\I511\\OneDrive\\Bureau\\book-bredg\\BookBridge\\BookBridge-backend\\BookBridge-backend.csproj": {}
+    "C:\\Users\\I511\\OneDrive\\Bureau\\test5\\BookBridge\\BookBridge-backend\\BookBridge-backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\I511\\OneDrive\\Bureau\\book-bredg\\BookBridge\\BookBridge-backend\\BookBridge-backend.csproj": {
+    "C:\\Users\\I511\\OneDrive\\Bureau\\test5\\BookBridge\\BookBridge-backend\\BookBridge-backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\I511\\OneDrive\\Bureau\\book-bredg\\BookBridge\\BookBridge-backend\\BookBridge-backend.csproj",
+        "projectUniqueName": "C:\\Users\\I511\\OneDrive\\Bureau\\test5\\BookBridge\\BookBridge-backend\\BookBridge-backend.csproj",
         "projectName": "BookBridge-backend",
-        "projectPath": "C:\\Users\\I511\\OneDrive\\Bureau\\book-bredg\\BookBridge\\BookBridge-backend\\BookBridge-backend.csproj",
+        "projectPath": "C:\\Users\\I511\\OneDrive\\Bureau\\test5\\BookBridge\\BookBridge-backend\\BookBridge-backend.csproj",
         "packagesPath": "C:\\Users\\I511\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\I511\\OneDrive\\Bureau\\book-bredg\\BookBridge\\BookBridge-backend\\obj\\",
+        "outputPath": "C:\\Users\\I511\\OneDrive\\Bureau\\test5\\BookBridge\\BookBridge-backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\I511\\AppData\\Roaming\\NuGet\\NuGet.Config",

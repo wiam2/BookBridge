@@ -2,6 +2,7 @@
 {
     public class Lecteur:User
     {
+       
         public string CIN { get; set; }
         public string Tel { get; set; }
         public string Adresse { get; set; }

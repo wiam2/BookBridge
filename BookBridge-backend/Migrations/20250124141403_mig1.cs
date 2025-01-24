@@ -5,7 +5,7 @@
 namespace BookBridge_backend.Migrations
 {
     /// <inheritdoc />
-    public partial class im : Migration
+    public partial class mig1 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

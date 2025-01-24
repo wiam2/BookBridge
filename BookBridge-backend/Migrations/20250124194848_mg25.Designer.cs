@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BookBridge_backend.Migrations
 {
     [DbContext(typeof(LibraryContext))]
-    [Migration("20250124160811_im")]
-    partial class im
+    [Migration("20250124194848_mg25")]
+    partial class mg25
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -52,7 +52,7 @@ namespace BookBridge_backend.Migrations
 
                     b.HasIndex("LivreId");
 
-                    b.ToTable("Emprunts");
+                    b.ToTable("Emprunts", (string)null);
                 });
 
             modelBuilder.Entity("BookBridge_backend.Models.Livre", b =>
@@ -85,9 +85,13 @@ namespace BookBridge_backend.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("image")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("Id");
 
-                    b.ToTable("Livres");
+                    b.ToTable("livres", (string)null);
                 });
 
             modelBuilder.Entity("BookBridge_backend.Models.User", b =>
@@ -101,11 +105,6 @@ namespace BookBridge_backend.Migrations
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Discriminator")
-                        .IsRequired()
-                        .HasMaxLength(21)
-                        .HasColumnType("nvarchar(21)");
 
                     b.Property<string>("Email")
                         .HasMaxLength(256)
@@ -167,9 +166,7 @@ namespace BookBridge_backend.Migrations
 
                     b.ToTable("AspNetUsers", (string)null);
 
-                    b.HasDiscriminator<string>("Discriminator").HasValue("User");
-
-                    b.UseTphMappingStrategy();
+                    b.UseTptMappingStrategy();
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -309,7 +306,7 @@ namespace BookBridge_backend.Migrations
                 {
                     b.HasBaseType("BookBridge_backend.Models.User");
 
-                    b.HasDiscriminator().HasValue("Bibliothecaire");
+                    b.ToTable("Biblios", (string)null);
                 });
 
             modelBuilder.Entity("BookBridge_backend.Models.Lecteur", b =>
@@ -328,7 +325,7 @@ namespace BookBridge_backend.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasDiscriminator().HasValue("Lecteur");
+                    b.ToTable("lecteurs", (string)null);
                 });
 
             modelBuilder.Entity("BookBridge_backend.Models.Emprunt", b =>
@@ -397,6 +394,24 @@ namespace BookBridge_backend.Migrations
                     b.HasOne("BookBridge_backend.Models.User", null)
                         .WithMany()
                         .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("BookBridge_backend.Models.Bibliothecaire", b =>
+                {
+                    b.HasOne("BookBridge_backend.Models.User", null)
+                        .WithOne()
+                        .HasForeignKey("BookBridge_backend.Models.Bibliothecaire", "Id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("BookBridge_backend.Models.Lecteur", b =>
+                {
+                    b.HasOne("BookBridge_backend.Models.User", null)
+                        .WithOne()
+                        .HasForeignKey("BookBridge_backend.Models.Lecteur", "Id")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });

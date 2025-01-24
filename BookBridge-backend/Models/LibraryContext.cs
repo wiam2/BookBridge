@@ -18,7 +18,10 @@ namespace BookBridge_backend.Models
         {
             // IMPORTANT : Appeler la configuration de la classe parente
             base.OnModelCreating(modelBuilder);
-
+            modelBuilder.Entity<Lecteur>().ToTable("lecteurs");
+            modelBuilder.Entity<Bibliothecaire>().ToTable("Biblios");
+            modelBuilder.Entity<Emprunt>().ToTable("Emprunts");
+            modelBuilder.Entity<Livre>().ToTable("livres");
             // Configuration des relations Lecteur -> Emprunts
             modelBuilder.Entity<Lecteur>()
               .HasMany(l => l.Emprunts)
