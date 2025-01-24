@@ -1,11 +1,20 @@
 {
   "Version": 1,
-  "Hash": "9WJNhvZeDwGAebJCfonBGEy+FMsSRk4qvGKDXnlLFHY=",
+  "Hash": "X4q5VCdbFy0XS3wWUchnSFR3AxGMOIxYbP0ljpt2Vvs=",
   "Source": "BookBridge-backend",
   "BasePath": "_content/BookBridge-backend",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "BookBridge-backend\\wwwroot",
+      "Source": "BookBridge-backend",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\New folder (3)\\BookBridge\\BookBridge-backend\\wwwroot\\",
+      "BasePath": "_content/BookBridge-backend",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
 }
