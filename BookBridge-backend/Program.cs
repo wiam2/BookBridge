@@ -13,7 +13,7 @@ builder.Services.AddControllers();
 builder.Services.AddScoped<AccountService>();
 builder.Services.AddScoped<LecteurService>();
 builder.Services.AddScoped<BiblioService>();
-
+builder.Services.AddScoped<LivreService>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

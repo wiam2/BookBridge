@@ -52,6 +52,121 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BookBridge_backend.Controllers.LivresController",
+    "Method": "GetAllLivres",
+    "RelativePath": "api/Livres",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookBridge_backend.Controllers.LivresController",
+    "Method": "AjouterLivre",
+    "RelativePath": "api/Livres",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "livre",
+        "Type": "BookBridge_backend.Models.Livre",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookBridge_backend.Controllers.LivresController",
+    "Method": "GetLivreById",
+    "RelativePath": "api/Livres/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookBridge_backend.Controllers.LivresController",
+    "Method": "ModifierLivre",
+    "RelativePath": "api/Livres/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedLivre",
+        "Type": "BookBridge_backend.Models.Livre",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookBridge_backend.Controllers.LivresController",
+    "Method": "SupprimerLivre",
+    "RelativePath": "api/Livres/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookBridge_backend.Controllers.LivresController",
+    "Method": "RechercherLivres",
+    "RelativePath": "api/Livres/rechercher",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "titre",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "auteur",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "genre",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "anneePublication",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "disponiblesUniquement",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BookBridge_backend.Controllers.LecteurController",
     "Method": "Supprimerlecteur",
     "RelativePath": "Deletelecteur/{id}",
