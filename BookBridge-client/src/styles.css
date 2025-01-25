@@ -1,1 +1,87 @@
-/* You can add global styles to this file, and also import other style files */
+/* Diaporama de fond */
+.slideshow-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1;
+  }
+  
+  .slide {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0; /* L'image commence invisible */
+    animation: slideInOut 16s infinite; /* Animation avec intervalle de 16s pour inclure le "vide" */
+  }
+  
+  /* Affiche les slides l'un après l'autre avec un décalage */
+  .slide:nth-child(1) {
+    animation-delay: 0s;
+  }
+  .slide:nth-child(2) {
+    animation-delay: 8s; /* Décalage pour afficher la deuxième image */
+  }
+  .slide:nth-child(3) {
+    animation-delay: 14s; /* Décalage pour afficher la deuxième image */
+  }
+  
+  
+  /* Animation pour faire glisser les images de droite à gauche, avec un intervalle vide */
+  @keyframes slideInOut {
+    0%, 15% {
+      left: 100%; /* Commence en dehors de l'écran à droite */
+      opacity: 0;
+    }
+    20%, 45% {
+      left: 0; /* Complètement visible au centre */
+      opacity: 1;
+    }
+    50%, 65% {
+      left: -100%; /* Glisse vers la gauche pour disparaître */
+      opacity: 0;
+    }
+    70%, 100% {
+      opacity: 0; /* Intervalle vide avant la prochaine image */
+    }
+  }
+  
+  /* Centrer le contenu */
+  .centered-content {
+    position: absolute;
+  
+    top: 80%;
+    gap: 20px;
+    display: flex;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff;
+    z-index: 1;
+  }
+  
+  .centered-content h1, .centered-content p {
+    margin: 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+  }
+  
+  /* Contenu principal (sous la navbar) */
+  .content {
+    position: relative;
+    margin-top: 60px;
+    z-index: 1;
+    padding: 20px;
+    color: #333;
+  }
+  
+  

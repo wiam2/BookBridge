@@ -3,7 +3,7 @@ export class  Lecteur extends User{
 
     CIN: string = ''; 
     Tel: string = ''; 
-    Adress: string = ''; 
+    Adresse: string = ''; 
     Emprunts: Array<any> = []; 
      
 }

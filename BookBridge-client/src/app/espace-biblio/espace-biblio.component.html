@@ -1,0 +1,44 @@
+<div class="container">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <div class="logo">
+      
+        <h1>Binbliothecaire Espace</h1>
+      </div>
+      <nav class="nav-menu">
+       
+        <button (click)="goto('GesUser')"class="nav-item ">
+         
+        Gestion Users
+        </button>
+        <button class="nav-item">
+        
+          Gestion Livres
+        </button>
+        <button class="nav-item">
+         
+        Gestion Emprunt
+        </button>
+        <button (click)="goto('profil')" class="nav-item">
+         
+          Profil
+        </button>
+      
+      </nav>
+    </div>
+  
+    <div class="main-content">
+        <div class="welcome-section">
+            <!-- Insérer l'image -->
+            <div *ngIf="ini" class="content">
+           
+           
+            <h2>Bienvenue dans l'Espace Bibliothécaire</h2>
+            <p>votre espace personnalisé.</p>
+          </div>
+          <div *ngIf="!ini">>
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+   
+  </div>

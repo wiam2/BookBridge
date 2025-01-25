@@ -1,0 +1,59 @@
+<nav class="navbar">
+   
+     
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+ 
+</nav>
+
+<div class="slideshow-background">
+    <div class="slide" style="background-image: url('/assets/7a6b6d91-9229-4d12-80f8-26e4cb4f8721.webp');">
+        <div class="overlay">
+          <h1>Bienvenue à Notre Bibliothèque </h1>
+          <h2>Votre portail vers la connaissance</h2>
+        </div>
+        <div class="centered-content">
+            <button class="custom-button" (click)="openLoginModal()">Se connecter</button>
+            <button class="custom-button" (click)="openRegisterModal()">S'inscrire</button>
+        </div>
+    </div>
+   
+    <div class="slide" style="background-image: url('/assets/1c19a24b-5e7c-40d5-ba24-ab362b11c23c.webp');">
+        <div class="overlay">
+          <h1>Un accès illimité à des milliers de livres</h1>
+          <h2>Connectez-vous pour explorer</h2>
+        </div>
+        <div class="centered-content">
+            <button class="custom-button" (click)="openLoginModal()">Se connecter</button>
+            <button class="custom-button" (click)="openRegisterModal()">S'inscrire</button>
+        </div>
+    </div>
+
+    <div class="slide" style="background-image: url('/assets/b6797d8c-ebaf-45a3-b6fd-76561b5790ed.webp');">
+        <div class="overlay">
+          <h1>Des ressources pour tous vos besoins</h1>
+          <h2>Découvrez notre catalogue varié</h2>
+        </div>
+        <div class="centered-content">
+            <button class="custom-button" (click)="openLoginModal()">Se connecter</button>
+            <button class="custom-button" (click)="openRegisterModal()">S'inscrire</button>
+        </div>
+    </div>
+</div>
+
+<div class="sidebar-modal" *ngIf="isLoginModalOpen">
+    <div class="sidebar-content">
+        <span class="close" (click)="closeLoginModal()">&times;</span>
+        <h2>Connexion en tant que</h2>
+        <button class="rol-button" (click)="LoginAs('Lecteur')">Lecteur <i class="fas fa-chevron-right"></i></button>
+        <button class="rol-button" (click)="LoginAs('Bibliothécaire')">Bibliothécaire <i class="fas fa-chevron-right"></i></button>
+    </div>
+</div>  
+
+<div class="sidebar-modal" *ngIf="isRegisterModalOpen">
+    <div class="sidebar-content">
+        <span class="close" (click)="closeRegisterModal()">&times;</span>
+        <h2>Inscription en tant que</h2>
+        <button class="rol-button" (click)="registerAs('Lecteur')">Lecteur <i class="fas fa-chevron-right"></i></button>
+        <button class="rol-button" (click)="registerAs('Bibliothécaire')">Bibliothécaire <i class="fas fa-chevron-right"></i></button>
+    </div>
+</div>

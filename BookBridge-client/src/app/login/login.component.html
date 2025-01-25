@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>Page de Connexion</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <a href="#"><i class="fas fa-arrow-left"></i> Retour</a>
+            <h2>Vous avez déjà un compte ?</h2>
+            <input type="text" [(ngModel)]="User.Email" placeholder="Adresse e-mail">
+            <input type="password" [(ngModel)]="User.Password" placeholder="Mot de passe">
+            <a href="#" class="forgot-password">Mot de passe oublié ?</a>
+            <button type="submit" (click)="login()">Se connecter</button>
+        </div>
+      
+        <div *ngIf="role === 'Lecteur'" class="right">
+            <h2>Inscrivez-vous pour accéder à une vaste collection de livres et ressources.</h2>
+            <p>Découvrez, empruntez et lisez vos livres préférés dès aujourd'hui.</p>
+            <button (click)="gotoregisterLecteur()">Créer votre compte</button>
+        </div>
+        <div class="right" *ngIf="role === 'Bibliothécaire'">
+            <h2>Rejoignez-nous pour gérer facilement les ressources de votre bibliothèque.</h2>
+            <p>Créez un compte pour accéder à nos outils de gestion dédiés aux bibliothécaires.</p>
+            <button (click)="gotoregisterBiblio()">Créer votre compte</button>
+        </div>
+    </div>
+    
+</body>
+</html>

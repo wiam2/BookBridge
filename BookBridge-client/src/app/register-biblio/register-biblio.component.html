@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Création de compte Lecteur</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <img src="/assets/b6797d8c-ebaf-45a3-b6fd-76561b5790ed.webp" alt="Image de fond" class="background-image">
+    <div class="scroll-container">
+    <div class="container">
+        <h2>Création de compte Lecteur</h2>
+        <form>
+            <!-- Nom et Prénom -->
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="nom" ><i class="fas fa-user"></i> Nom *</label>
+                    <input  [(ngModel)]="User.Nom" type="text" id="nom" name="nom" required>
+                </div>
+                <div class="form-group">
+                    <label for="prenom" ><i class="fas fa-user"></i> Prénom *</label>
+                    <input  [(ngModel)]="User.Prenom" type="text" id="prenom" name="prenom" required>
+                </div>
+            </div>
+          
+            <div class="form-row">
+
+            <!-- Email -->
+            <div class="form-group">
+                <label for="email"><i class="fas fa-envelope"></i> Adresse email *</label>
+                <input  [(ngModel)]="User.Email" type="email" id="email" name="email" required>
+            </div>
+          
+
+            <!-- Mot de passe et confirmation -->
+          
+                <div class="form-group">
+                    <label for="password"><i class="fas fa-lock"></i> Mot de passe *</label>
+                    <input  [(ngModel)]="User.Password" type="password" id="password" name="password" required>
+                </div>
+            </div>
+                <div class="form-group">
+                    <label for="confirm-password"><i class="fas fa-lock"></i> Confirmez le mot de passe *</label>
+                    <input  [(ngModel)]="User.ConfirmPassword" type="password" id="confirm-password" name="confirm-password" required>
+                </div>
+     
+
+            <!-- Bouton de soumission -->
+            <button (click)="onSubmit()" type="submit">Créer un compte</button>
+        </form>
+    </div>
+    </div>
+
+    
+</body>
+</html>
+
+

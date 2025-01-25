@@ -4,6 +4,7 @@ using System;
 using BookBridge_backend.Models;
 using BookBridge_backend.Services;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.Net.Http.Headers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -33,7 +34,15 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+    app.UseCors(policy =>
+    {
+        policy.WithOrigins("http://localhost:5289", "https://localhost:44346", "http://localhost:4200")
+        .AllowAnyMethod()
+        .AllowAnyHeader()
+        .WithHeaders(HeaderNames.ContentType);
+    });
 }
+
 
 app.UseHttpsRedirection();
 

@@ -1,0 +1,50 @@
+<div class="main-content">
+    <header class="header">
+        <div class="header-top">
+            <h2>Users</h2>
+            <button (click)="logout()" class="add-user-btn">
+              Logout
+            </button>
+        </div>
+        <div class="filters">
+            <div class="search-box">
+                <input type="text" placeholder="Search users..." />
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                       
+                        <th style="color: #F0A500;" >Nom</th>
+                        <th style="color: #F0A500;">Prenom</th>
+                        <th style="color: #F0A500;">Tel</th>
+                        <th style="color: #F0A500;">Email</th>
+                        <th style="color: #F0A500;">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let lecteur of lecteurs ">
+                       
+                            
+                               
+                                <td style="color: black;"> {{lecteur.Nom}}</td>
+                         
+                     
+                        <td style="color: black;"> {{lecteur.Prenom}}</td>
+                        <td><span style="color: black;"class="badge">{{lecteur.Tel}}</span></td>
+                        <td><span style="color: black;" class="badge">{{lecteur.Email}}</span></td>
+                        <td class="actions">
+                           
+                            <button (click)="deletelecteur(lecteur.Id)" class="delete-btn">Delete</button>
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+    </main>
+</div>
