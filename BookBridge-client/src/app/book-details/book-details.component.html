@@ -1,0 +1,25 @@
+<app-lecteur-nav></app-lecteur-nav>
+<div *ngIf="book" class="book-details-container">
+  <div class="book-content">
+    <!-- Image à gauche -->
+    <div class="book-image">
+      <img *ngIf="book.image" [src]="book.image" alt="{{ book.titre }}" style="max-height: 300px; object-fit: contain;">
+    </div>
+
+    <!-- Texte et bouton à droite -->
+    <div class="book-info">
+      <h3>{{ book.titre }}</h3>
+      <p><i class="bi bi-person-fill me-2"></i><strong>Auteur :</strong> {{ book.auteur }}</p>
+      <p><i class="bi bi-bookmark-fill me-2"></i><strong>Éditeur :</strong> {{ book.editeur }}</p>
+      <p><i class="bi bi-tag-fill me-2"></i><strong>Genre :</strong> {{ book.genre }}</p>
+      <p><i class="bi bi-calendar-fill me-2"></i><strong>Année :</strong> {{ book.annee }}</p>
+      <p><i class="bi bi-file-earmark-pdf-fill me-2"></i><strong>Nombre de Copies :</strong> {{ book.nombreCopies }}</p>
+
+      <div class="borrow-section text-center">
+        <button class="btn btn-warning borrow-button" (click)="borrowBook()">
+          <i class="bi bi-arrow-down-circle me-2"></i> Emprunter ce livre
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

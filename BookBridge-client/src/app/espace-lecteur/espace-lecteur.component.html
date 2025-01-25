@@ -1,1 +1,89 @@
-<p>espace-lecteur works!</p>
+
+<app-lecteur-nav></app-lecteur-nav>
+
+<div class="container"> <!-- Section des nouveautés -->
+  <section class="text-center mb-5">
+    <h1 class="fw-bold mb-3">📚 Bienvenue à MyLibrary</h1>
+    <p class="lead text-muted">
+      Explorez notre vaste collection de livres et trouvez vos prochaines lectures préférées.
+    </p>
+    <button class="btn btn-primary btn-lg" (click)="toggleSearchForm()">
+      <i class="bi bi-search me-1"></i> Explorer les livres
+    </button>
+  </section>
+
+  <!-- Formulaire de recherche (affiché lorsque showSearchForm est true) -->
+  <div *ngIf="showSearchForm">
+    <h2 class="text-center mb-4">Rechercher des livres</h2>
+    <form (ngSubmit)="rechercherLivres()">
+      <div class="row">
+        <div class="col-12 col-md-3 mb-3">
+          <label for="titre" class="form-label"><i class="bi bi-book me-2"></i>Titre</label>
+          <input type="text" id="titre" class="form-control" [(ngModel)]="titre" name="titre">
+        </div>
+
+        <div class="col-12 col-md-3 mb-3">
+          <label for="auteur" class="form-label"><i class="bi bi-person me-2"></i>Auteur</label>
+          <input type="text" id="auteur" class="form-control" [(ngModel)]="auteur" name="auteur">
+        </div>
+
+        <div class="col-12 col-md-3 mb-3">
+          <label for="genre" class="form-label"><i class="bi bi-tags me-2"></i>Genre</label>
+          <input type="text" id="genre" class="form-control" [(ngModel)]="genre" name="genre">
+        </div>
+
+        <div class="col-12 col-md-3 mb-3">
+          <label for="anneePublication" class="form-label"><i class="bi bi-calendar me-2"></i>Année</label>
+          <input type="number" id="anneePublication" class="form-control" [(ngModel)]="anneePublication" name="anneePublication">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 col-md-6 mb-3 form-check">
+          <input type="checkbox" id="disponiblesUniquement" class="form-check-input" [(ngModel)]="disponiblesUniquement" name="disponiblesUniquement">
+          <label class="form-check-label" for="disponiblesUniquement"><i class="bi bi-check-circle me-2"></i>Disponibles uniquement</label>
+        </div>
+
+        <!-- Boutons Rechercher et Annuler les filtres sur la même ligne, même taille -->
+        <div class="row mt-3">
+          <div class="col-3">
+            <button type="submit" class="btn btn-primary btn-lg w-100">
+              <i class="bi bi-search me-2"></i>Rechercher
+            </button>
+          </div>
+
+          <div class="col-3">
+            <button type="submit" class="btn btn-secondary btn-lg w-100" (click)="resetFilters()">
+              <i class="bi bi-x-circle me-2"></i>Annuler les filtres
+            </button>
+          </div>
+        </div>
+      </div>
+    </form>
+
+  </div>
+
+
+
+  <!-- Liste des livres -->
+  <div class="row row-cols-1 row-cols-md-3 g-4" >
+    <div class="col" *ngFor="let book of books">
+      <div class="card h-100 shadow border-0"  >
+        <div class="card-body text-center" >
+          <img *ngIf="book.image" [src]="book.image" class="card-img-top mb-3" style=" object-fit: contain; border-radius: 10px; transition: all 0.3s ease;">
+
+          <h5 class="card-title">{{ book.titre }}</h5>
+          <p><strong>Auteur :</strong> {{ book.auteur }}</p>
+        </div>
+        <div class="card-footer bg-transparent border-0 text-center">
+          <button class="btn btn-outline-primary" (click)="loadBookDetails(book.id)">
+            <i class="bi bi-box-arrow-in-right me-1"></i> Voir détails
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
