@@ -1,125 +1,141 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\",
+  "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\i511\\onedrive\\bureau\\merge\\bookbridge\\bookbridge-backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\user\\desktop\\bookbridge\\bookbridge\\bookbridge-backend\\controllers\\empruntcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:controllers\\empruntcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\i511\\onedrive\\bureau\\merge\\bookbridge\\bookbridge-backend\\models\\livre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:models\\livre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\user\\desktop\\bookbridge\\bookbridge\\bookbridge-backend\\services\\empruntservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:services\\empruntservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\i511\\onedrive\\bureau\\merge\\bookbridge\\bookbridge-backend\\controllers\\livrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:controllers\\livrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\user\\desktop\\bookbridge\\bookbridge\\bookbridge-backend\\dtos\\empruntdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:dtos\\empruntdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\i511\\onedrive\\bureau\\merge\\bookbridge\\bookbridge-backend\\services\\livreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:services\\livreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\user\\desktop\\bookbridge\\bookbridge\\bookbridge-backend\\dtos\\lecteurdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:dtos\\lecteurdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\i511\\onedrive\\bureau\\merge\\bookbridge\\bookbridge-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\i511\\onedrive\\bureau\\merge\\bookbridge\\bookbridge-backend\\models\\lecteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:models\\lecteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\i511\\onedrive\\bureau\\merge\\bookbridge\\bookbridge-backend\\models\\bibliothecaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:models\\bibliothecaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\i511\\onedrive\\bureau\\merge\\bookbridge\\bookbridge-backend\\services\\biblioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:services\\biblioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\i511\\onedrive\\bureau\\merge\\bookbridge\\bookbridge-backend\\services\\lecteurservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:services\\lecteurservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\i511\\onedrive\\bureau\\merge\\bookbridge\\bookbridge-backend\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\i511\\onedrive\\bureau\\merge\\bookbridge\\bookbridge-backend\\dtos\\bibliothecairedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:dtos\\bibliothecairedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\i511\\onedrive\\bureau\\merge\\bookbridge\\bookbridge-backend\\dtos\\lecteurdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:dtos\\lecteurdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\i511\\onedrive\\bureau\\merge\\bookbridge\\bookbridge-backend\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\i511\\onedrive\\bureau\\merge\\bookbridge\\bookbridge-backend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\i511\\onedrive\\bureau\\merge\\bookbridge\\bookbridge-backend\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\i511\\onedrive\\bureau\\merge\\bookbridge\\bookbridge-backend\\controllers\\bibliocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:controllers\\bibliocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\i511\\onedrive\\bureau\\merge\\bookbridge\\bookbridge-backend\\controllers\\lecteurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:controllers\\lecteurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\i511\\onedrive\\bureau\\merge\\bookbridge\\bookbridge-backend\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\i511\\onedrive\\bureau\\merge\\bookbridge\\bookbridge-backend\\models\\librarycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:models\\librarycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\i511\\onedrive\\bureau\\merge\\bookbridge\\bookbridge-backend\\dtos\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:dtos\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\i511\\onedrive\\bureau\\merge\\bookbridge\\bookbridge-backend\\dtos\\serviceresponce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:dtos\\serviceresponce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\i511\\onedrive\\bureau\\merge\\bookbridge\\bookbridge-backend\\models\\emprunt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\user\\desktop\\bookbridge\\bookbridge\\bookbridge-backend\\models\\emprunt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:models\\emprunt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\i511\\onedrive\\bureau\\merge\\bookbridge\\bookbridge-backend\\migrations\\20250124141403_mig1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\user\\desktop\\bookbridge\\bookbridge\\bookbridge-backend\\controllers\\livrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:controllers\\livrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\user\\desktop\\bookbridge\\bookbridge\\bookbridge-backend\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\user\\desktop\\bookbridge\\bookbridge\\bookbridge-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\user\\desktop\\bookbridge\\bookbridge\\bookbridge-backend\\controllers\\lecteurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:controllers\\lecteurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\user\\desktop\\bookbridge\\bookbridge\\bookbridge-backend\\controllers\\bibliocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:controllers\\bibliocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\user\\desktop\\bookbridge\\bookbridge\\bookbridge-backend\\dtos\\lecteurdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:dtos\\lecteurdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\user\\desktop\\bookbridge\\bookbridge\\bookbridge-backend\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\user\\desktop\\bookbridge\\bookbridge\\bookbridge-backend\\models\\bibliothecaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:models\\bibliothecaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\user\\desktop\\bookbridge\\bookbridge\\bookbridge-backend\\models\\librarycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:models\\librarycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\user\\desktop\\bookbridge\\bookbridge\\bookbridge-backend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\user\\desktop\\bookbridge\\bookbridge\\bookbridge-backend\\models\\livre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:models\\livre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\user\\desktop\\bookbridge\\bookbridge\\bookbridge-backend\\services\\lecteurservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:services\\lecteurservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\user\\desktop\\bookbridge\\bookbridge\\bookbridge-backend\\services\\biblioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:services\\biblioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\user\\desktop\\bookbridge\\bookbridge\\bookbridge-backend\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\user\\desktop\\bookbridge\\bookbridge\\bookbridge-backend\\models\\lecteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:models\\lecteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\user\\desktop\\bookbridge\\bookbridge\\bookbridge-backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\user\\desktop\\bookbridge\\bookbridge\\bookbridge-backend\\services\\livreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:services\\livreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\user\\desktop\\bookbridge\\bookbridge\\bookbridge-backend\\dtos\\bibliothecairedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:dtos\\bibliothecairedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\user\\desktop\\bookbridge\\bookbridge\\bookbridge-backend\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\user\\desktop\\bookbridge\\bookbridge\\bookbridge-backend\\dtos\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:dtos\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\user\\desktop\\bookbridge\\bookbridge\\bookbridge-backend\\dtos\\serviceresponce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:dtos\\serviceresponce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\user\\desktop\\bookbridge\\bookbridge\\bookbridge-backend\\migrations\\20250124141403_mig1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:migrations\\20250124141403_mig1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\i511\\onedrive\\bureau\\merge\\bookbridge\\bookbridge-backend\\migrations\\20250123214741_firstmigration2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\user\\desktop\\bookbridge\\bookbridge\\bookbridge-backend\\migrations\\20250123214741_firstmigration2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:migrations\\20250123214741_firstmigration2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\i511\\onedrive\\bureau\\merge\\bookbridge\\bookbridge-backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\user\\desktop\\bookbridge\\bookbridge\\bookbridge-backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\i511\\onedrive\\bureau\\merge\\bookbridge\\bookbridge-backend\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\user\\desktop\\bookbridge\\bookbridge\\bookbridge-backend\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\i511\\onedrive\\bureau\\merge\\bookbridge\\bookbridge-backend\\migrations\\20250124161322_im2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\user\\desktop\\bookbridge\\bookbridge\\bookbridge-backend\\migrations\\20250124161322_im2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:migrations\\20250124161322_im2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\i511\\onedrive\\bureau\\merge\\bookbridge\\bookbridge-backend\\migrations\\20250124194848_mg25.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\user\\desktop\\bookbridge\\bookbridge\\bookbridge-backend\\migrations\\20250124194848_mg25.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:migrations\\20250124194848_mg25.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\i511\\onedrive\\bureau\\merge\\bookbridge\\bookbridge-backend\\migrations\\20250124194225_mg2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\user\\desktop\\bookbridge\\bookbridge\\bookbridge-backend\\migrations\\20250124194225_mg2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:migrations\\20250124194225_mg2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\i511\\onedrive\\bureau\\merge\\bookbridge\\bookbridge-backend\\migrations\\20250124175025_mg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|c:\\users\\user\\desktop\\bookbridge\\bookbridge\\bookbridge-backend\\migrations\\20250124175025_mg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA5DBD46-234F-46E3-9E0E-F7341DB84A99}|BookBridge-backend.csproj|solutionrelative:migrations\\20250124175025_mg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -130,73 +146,118 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 22,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmpruntController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Controllers\\EmpruntController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmpruntController.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Controllers\\EmpruntController.cs",
+              "RelativeToolTip": "Controllers\\EmpruntController.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAwwGkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T16:37:05.386Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "LivreService.cs",
-              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\Services\\LivreService.cs",
-              "RelativeDocumentMoniker": "Services\\LivreService.cs",
-              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\Services\\LivreService.cs",
-              "RelativeToolTip": "Services\\LivreService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "LecteurDetailsDTO.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\DTOS\\LecteurDetailsDTO.cs",
+              "RelativeDocumentMoniker": "DTOS\\LecteurDetailsDTO.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\DTOS\\LecteurDetailsDTO.cs",
+              "RelativeToolTip": "DTOS\\LecteurDetailsDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T22:49:03.662Z",
+              "WhenOpened": "2025-01-25T14:47:25.18Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "LivresController.cs",
-              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\Controllers\\LivresController.cs",
-              "RelativeDocumentMoniker": "Controllers\\LivresController.cs",
-              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\Controllers\\LivresController.cs",
-              "RelativeToolTip": "Controllers\\LivresController.cs",
+              "Title": "EmpruntDTO.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\DTOS\\EmpruntDTO.cs",
+              "RelativeDocumentMoniker": "DTOS\\EmpruntDTO.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\DTOS\\EmpruntDTO.cs",
+              "RelativeToolTip": "DTOS\\EmpruntDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T14:46:46.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmpruntService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Services\\EmpruntService.cs",
+              "RelativeDocumentMoniker": "Services\\EmpruntService.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Services\\EmpruntService.cs*",
+              "RelativeToolTip": "Services\\EmpruntService.cs*",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAYwIsAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T12:37:58.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LivreService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Services\\LivreService.cs",
+              "RelativeDocumentMoniker": "Services\\LivreService.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Services\\LivreService.cs",
+              "RelativeToolTip": "Services\\LivreService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T22:49:03.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LivresController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Controllers\\LivresController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LivresController.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Controllers\\LivresController.cs",
+              "RelativeToolTip": "Controllers\\LivresController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-24T22:49:00.009Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 9,
               "Title": "BiblioController.cs",
-              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\Controllers\\BiblioController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Controllers\\BiblioController.cs",
               "RelativeDocumentMoniker": "Controllers\\BiblioController.cs",
-              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\Controllers\\BiblioController.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Controllers\\BiblioController.cs",
               "RelativeToolTip": "Controllers\\BiblioController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAADwvxMAAAAgAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T20:16:48.571Z"
+              "WhenOpened": "2025-01-24T20:16:48.571Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 17,
               "Title": "BiblioService.cs",
-              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\Services\\BiblioService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Services\\BiblioService.cs",
               "RelativeDocumentMoniker": "Services\\BiblioService.cs",
-              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\Services\\BiblioService.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Services\\BiblioService.cs",
               "RelativeToolTip": "Services\\BiblioService.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAUwCEAAAAiAAAAAAAAAA==",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T20:13:35.05Z"
+              "WhenOpened": "2025-01-24T20:13:35.05Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 31,
               "Title": "20250124194848_mg25.cs",
-              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\Migrations\\20250124194848_mg25.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Migrations\\20250124194848_mg25.cs",
               "RelativeDocumentMoniker": "Migrations\\20250124194848_mg25.cs",
-              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\Migrations\\20250124194848_mg25.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Migrations\\20250124194848_mg25.cs",
               "RelativeToolTip": "Migrations\\20250124194848_mg25.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -204,11 +265,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 32,
               "Title": "20250124194225_mg2.cs",
-              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\Migrations\\20250124194225_mg2.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Migrations\\20250124194225_mg2.cs",
               "RelativeDocumentMoniker": "Migrations\\20250124194225_mg2.cs",
-              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\Migrations\\20250124194225_mg2.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Migrations\\20250124194225_mg2.cs",
               "RelativeToolTip": "Migrations\\20250124194225_mg2.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -216,47 +277,50 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "LecteurController.cs",
-              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\Controllers\\LecteurController.cs",
-              "RelativeDocumentMoniker": "Controllers\\LecteurController.cs",
-              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\Controllers\\LecteurController.cs",
-              "RelativeToolTip": "Controllers\\LecteurController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T19:28:12.447Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "LecteurController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Controllers\\LecteurController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LecteurController.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Controllers\\LecteurController.cs",
+              "RelativeToolTip": "Controllers\\LecteurController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T19:28:12.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "LecteurService.cs",
-              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\Services\\LecteurService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Services\\LecteurService.cs",
               "RelativeDocumentMoniker": "Services\\LecteurService.cs",
-              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\Services\\LecteurService.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Services\\LecteurService.cs",
               "RelativeToolTip": "Services\\LecteurService.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAYwDkAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAuwFsAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T19:09:00.755Z"
+              "WhenOpened": "2025-01-24T19:09:00.755Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 6,
               "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\Controllers\\AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Controllers\\AccountController.cs",
               "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAgwBUAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T17:53:39.724Z"
+              "WhenOpened": "2025-01-24T17:53:39.724Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 33,
               "Title": "20250124175025_mg.cs",
-              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\Migrations\\20250124175025_mg.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Migrations\\20250124175025_mg.cs",
               "RelativeDocumentMoniker": "Migrations\\20250124175025_mg.cs",
-              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\Migrations\\20250124175025_mg.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Migrations\\20250124175025_mg.cs",
               "RelativeToolTip": "Migrations\\20250124175025_mg.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -264,11 +328,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "UserSession.cs",
-              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\DTOS\\UserSession.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\DTOS\\UserSession.cs",
               "RelativeDocumentMoniker": "DTOS\\UserSession.cs",
-              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\DTOS\\UserSession.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\DTOS\\UserSession.cs",
               "RelativeToolTip": "DTOS\\UserSession.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -276,11 +340,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "ServiceResponce.cs",
-              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\DTOS\\ServiceResponce.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\DTOS\\ServiceResponce.cs",
               "RelativeDocumentMoniker": "DTOS\\ServiceResponce.cs",
-              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\DTOS\\ServiceResponce.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\DTOS\\ServiceResponce.cs",
               "RelativeToolTip": "DTOS\\ServiceResponce.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -288,11 +352,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 22,
               "Title": "BibliothecaireDTO.cs",
-              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\DTOS\\BibliothecaireDTO.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\DTOS\\BibliothecaireDTO.cs",
               "RelativeDocumentMoniker": "DTOS\\BibliothecaireDTO.cs",
-              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\DTOS\\BibliothecaireDTO.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\DTOS\\BibliothecaireDTO.cs",
               "RelativeToolTip": "DTOS\\BibliothecaireDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -300,47 +364,50 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "LecteurDTO.cs",
-              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\DTOS\\LecteurDTO.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\DTOS\\LecteurDTO.cs",
               "RelativeDocumentMoniker": "DTOS\\LecteurDTO.cs",
-              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\DTOS\\LecteurDTO.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\DTOS\\LecteurDTO.cs",
               "RelativeToolTip": "DTOS\\LecteurDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T17:31:19.256Z"
+              "WhenOpened": "2025-01-24T17:31:19.256Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 11,
               "Title": "UserDTO.cs",
-              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\DTOS\\UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\DTOS\\UserDTO.cs",
               "RelativeDocumentMoniker": "DTOS\\UserDTO.cs",
-              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\DTOS\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\DTOS\\UserDTO.cs",
               "RelativeToolTip": "DTOS\\UserDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAHAAAAAAAAAA==",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T17:30:39.836Z"
+              "WhenOpened": "2025-01-24T17:30:39.836Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 18,
               "Title": "AccountService.cs",
-              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\Services\\AccountService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Services\\AccountService.cs",
               "RelativeDocumentMoniker": "Services\\AccountService.cs",
-              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\Services\\AccountService.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Services\\AccountService.cs",
               "RelativeToolTip": "Services\\AccountService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAEIAAAArAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T16:29:58.857Z"
+              "WhenOpened": "2025-01-24T16:29:58.857Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 23,
               "Title": "LoginDTO.cs",
-              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\DTOS\\LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\DTOS\\LoginDTO.cs",
               "RelativeDocumentMoniker": "DTOS\\LoginDTO.cs",
-              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\DTOS\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\DTOS\\LoginDTO.cs",
               "RelativeToolTip": "DTOS\\LoginDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -348,11 +415,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "20250124161322_im2.cs",
-              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\Migrations\\20250124161322_im2.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Migrations\\20250124161322_im2.cs",
               "RelativeDocumentMoniker": "Migrations\\20250124161322_im2.cs",
-              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\Migrations\\20250124161322_im2.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Migrations\\20250124161322_im2.cs",
               "RelativeToolTip": "Migrations\\20250124161322_im2.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -360,11 +427,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "20250124141403_mig1.cs",
-              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\Migrations\\20250124141403_mig1.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Migrations\\20250124141403_mig1.cs",
               "RelativeDocumentMoniker": "Migrations\\20250124141403_mig1.cs",
-              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\Migrations\\20250124141403_mig1.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Migrations\\20250124141403_mig1.cs",
               "RelativeToolTip": "Migrations\\20250124141403_mig1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -372,11 +439,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "20250123214741_FirstMigration2.cs",
-              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\Migrations\\20250123214741_FirstMigration2.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Migrations\\20250123214741_FirstMigration2.cs",
               "RelativeDocumentMoniker": "Migrations\\20250123214741_FirstMigration2.cs",
-              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\Migrations\\20250123214741_FirstMigration2.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Migrations\\20250123214741_FirstMigration2.cs",
               "RelativeToolTip": "Migrations\\20250123214741_FirstMigration2.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -384,24 +451,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 20,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\appsettings.json",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-01-23T20:53:04.326Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Properties\\launchSettings.json",
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AgIAAAIAAAAAAAAAAMBdwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -409,36 +476,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 13,
               "Title": "LibraryContext.cs",
-              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\Models\\LibraryContext.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Models\\LibraryContext.cs",
               "RelativeDocumentMoniker": "Models\\LibraryContext.cs",
-              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\Models\\LibraryContext.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Models\\LibraryContext.cs",
               "RelativeToolTip": "Models\\LibraryContext.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBcAAAA7AAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAIwCcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T20:47:27.8Z"
+              "WhenOpened": "2025-01-23T20:47:27.8Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\Program.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-23T20:45:46.859Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\Controllers\\WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -446,65 +514,68 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 4,
               "Title": "Emprunt.cs",
-              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\Models\\Emprunt.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Models\\Emprunt.cs",
               "RelativeDocumentMoniker": "Models\\Emprunt.cs",
-              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\Models\\Emprunt.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Models\\Emprunt.cs",
               "RelativeToolTip": "Models\\Emprunt.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAswA8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T20:43:51.715Z"
+              "WhenOpened": "2025-01-23T20:43:51.715Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 15,
               "Title": "Livre.cs",
-              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\Models\\Livre.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Models\\Livre.cs",
               "RelativeDocumentMoniker": "Models\\Livre.cs",
-              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\Models\\Livre.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Models\\Livre.cs",
               "RelativeToolTip": "Models\\Livre.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-23T20:43:25.111Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "Bibliothecaire.cs",
-              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\Models\\Bibliothecaire.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Models\\Bibliothecaire.cs",
               "RelativeDocumentMoniker": "Models\\Bibliothecaire.cs",
-              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\Models\\Bibliothecaire.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Models\\Bibliothecaire.cs",
               "RelativeToolTip": "Models\\Bibliothecaire.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T20:43:00.076Z"
+              "WhenOpened": "2025-01-23T20:43:00.076Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 19,
               "Title": "Lecteur.cs",
-              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\Models\\Lecteur.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Models\\Lecteur.cs",
               "RelativeDocumentMoniker": "Models\\Lecteur.cs",
-              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\Models\\Lecteur.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Models\\Lecteur.cs",
               "RelativeToolTip": "Models\\Lecteur.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-23T20:42:26.3Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\Models\\User.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\merge\\BookBridge\\BookBridge-backend\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\BookBridge\\BookBridge\\BookBridge-backend\\Models\\User.cs",
               "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAHAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T20:41:14.1Z"
+              "WhenOpened": "2025-01-23T20:41:14.1Z",
+              "EditorCaption": ""
             }
           ]
         }
