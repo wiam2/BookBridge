@@ -1,0 +1,126 @@
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card p-4 shadow-sm">
+        <h2 class="text-center mb-4 custom-title">{{ formTitle }}</h2>
+        <form (ngSubmit)="onSave()">
+          <!-- Titre -->
+          <div class="mb-3">
+            <label for="titre" class="form-label">
+              <i class="bi bi-bookmark-fill custom-icon"></i> Titre
+            </label>
+            <input
+                    type="text"
+                    id="titre"
+                    class="form-control"
+                    [(ngModel)]="bookForm.titre"
+                    name="titre"
+                    placeholder="Entrez le titre du livre"
+                    required
+            />
+          </div>
+
+          <!-- Auteur -->
+          <div class="mb-3">
+            <label for="auteur" class="form-label">
+              <i class="bi bi-person-fill custom-icon"></i> Auteur
+            </label>
+            <input
+                    type="text"
+                    id="auteur"
+                    class="form-control"
+                    [(ngModel)]="bookForm.auteur"
+                    name="auteur"
+                    placeholder="Entrez l'auteur du livre"
+                    required
+            />
+          </div>
+
+          <!-- Éditeur -->
+          <div class="mb-3">
+            <label for="editeur" class="form-label">
+              <i class="bi bi-house-door-fill custom-icon"></i> Éditeur
+            </label>
+            <input
+                    type="text"
+                    id="editeur"
+                    class="form-control"
+                    [(ngModel)]="bookForm.editeur"
+                    name="editeur"
+                    placeholder="Entrez l'éditeur"
+                    required
+            />
+          </div>
+
+          <!-- Genre -->
+          <div class="mb-3">
+            <label for="genre" class="form-label">
+              <i class="bi bi-tags-fill custom-icon"></i> Genre
+            </label>
+            <input
+                    type="text"
+                    id="genre"
+                    class="form-control"
+                    [(ngModel)]="bookForm.genre"
+                    name="genre"
+                    placeholder="Entrez le genre du livre"
+                    required
+            />
+          </div>
+
+          <div class="mb-3">
+            <label for="annee" class="form-label">
+              <i class="bi bi-calendar-check-fill custom-icon"></i> Année
+            </label>
+            <input
+                    type="text"
+                    id="annee"
+                    class="form-control"
+                    [(ngModel)]="bookForm.annee"
+                    name="annee"
+                    placeholder="Entrez l'année du livre"
+                    required
+            />
+          </div>
+
+          <!-- Nombre de copies -->
+          <div class="mb-3">
+            <label for="nombreCopies" class="form-label">
+              <i class="bi bi-file-earmark-text custom-icon"></i> Nombre de Copies
+            </label>
+            <input
+                    type="number"
+                    id="nombreCopies"
+                    class="form-control"
+                    [(ngModel)]="bookForm.nombreCopies"
+                    name="nombreCopies"
+                    placeholder="Entrez le nombre de copies"
+                    required
+            />
+          </div>
+
+          <!-- Image -->
+          <div class="mb-3">
+            <label for="image" class="form-label">
+              <i class="bi bi-image-fill custom-icon"></i> Image
+            </label>
+            <input
+                    type="file"
+                    id="image"
+                    class="form-control"
+                    (change)="onImageChange($event)"
+            />
+          </div>
+
+          <!-- Boutons -->
+          <button type="submit" class="btn btn-primary w-100" [disabled]="!bookForm.titre || !bookForm.auteur || !bookForm.editeur || !bookForm.genre || !bookForm.nombreCopies">
+            <i class="bi bi-save"></i> Enregistrer
+          </button>
+          <button type="button" class="btn btn-secondary w-100 mt-2" (click)="onCancel()">
+            <i class="bi bi-x-circle-fill"></i> Annuler
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
