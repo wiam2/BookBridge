@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\New folder (3)\\BookBridge\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\Desktop\\New folder (3)\\BookBridge\\BookBridge-backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookBridge-backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\Desktop\\New folder (3)\\BookBridge\\BookBridge-backend\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookBridge-backend\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\Desktop\\New folder (3)\\BookBridge\\BookBridge-backend\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookBridge-backend\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\Desktop\\New folder (3)\\BookBridge\\BookBridge-backend\\Models\\Livre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookBridge-backend\\Models\\Livre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\Desktop\\New folder (3)\\BookBridge\\BookBridge-backend\\Migrations\\LibraryContextModelSnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookBridge-backend\\Migrations\\LibraryContextModelSnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\New folder (3)\\BookBridge\\BookBridge-backend\\appsettings.json",
+              "RelativeDocumentMoniker": "BookBridge-backend\\appsettings.json",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\New folder (3)\\BookBridge\\BookBridge-backend\\appsettings.json",
+              "RelativeToolTip": "BookBridge-backend\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-24T10:46:50.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\New folder (3)\\BookBridge\\BookBridge-backend\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "BookBridge-backend\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\New folder (3)\\BookBridge\\BookBridge-backend\\appsettings.Development.json",
+              "RelativeToolTip": "BookBridge-backend\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-24T10:46:48.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\New folder (3)\\BookBridge\\BookBridge-backend\\Models\\User.cs",
+              "RelativeDocumentMoniker": "BookBridge-backend\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\New folder (3)\\BookBridge\\BookBridge-backend\\Models\\User.cs",
+              "RelativeToolTip": "BookBridge-backend\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T10:46:28.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Livre.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\New folder (3)\\BookBridge\\BookBridge-backend\\Models\\Livre.cs",
+              "RelativeDocumentMoniker": "BookBridge-backend\\Models\\Livre.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\New folder (3)\\BookBridge\\BookBridge-backend\\Models\\Livre.cs",
+              "RelativeToolTip": "BookBridge-backend\\Models\\Livre.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T10:46:16.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LibraryContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\New folder (3)\\BookBridge\\BookBridge-backend\\Migrations\\LibraryContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "BookBridge-backend\\Migrations\\LibraryContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\New folder (3)\\BookBridge\\BookBridge-backend\\Migrations\\LibraryContextModelSnapshot.cs",
+              "RelativeToolTip": "BookBridge-backend\\Migrations\\LibraryContextModelSnapshot.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T10:45:58.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

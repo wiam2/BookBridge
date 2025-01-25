@@ -58,8 +58,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T18:50:31.31Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-24T18:50:31.31Z"
             },
             {
               "$type": "Document",
@@ -71,8 +70,7 @@
               "RelativeToolTip": "BookBridge-backend.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-01-24T18:43:37.522Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-24T18:43:37.522Z"
             },
             {
               "$type": "Document",
@@ -82,7 +80,7 @@
               "RelativeDocumentMoniker": "Services\\LivreService.cs",
               "ToolTip": "C:\\Users\\HP\\Desktop\\New folder (3)\\BookBridge\\BookBridge-backend\\Services\\LivreService.cs",
               "RelativeToolTip": "Services\\LivreService.cs",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAYwGkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAuwGQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-24T18:36:56.067Z",
               "EditorCaption": ""
@@ -95,10 +93,9 @@
               "RelativeDocumentMoniker": "Controllers\\LivresController.cs",
               "ToolTip": "C:\\Users\\HP\\Desktop\\New folder (3)\\BookBridge\\BookBridge-backend\\Controllers\\LivresController.cs",
               "RelativeToolTip": "Controllers\\LivresController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAA0wFsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAqwFsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T18:06:41.963Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-24T18:06:41.963Z"
             },
             {
               "$type": "Document",
@@ -110,8 +107,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-24T18:50:23.579Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-24T18:50:23.579Z"
             },
             {
               "$type": "Document",
@@ -123,8 +119,7 @@
               "RelativeToolTip": "Models\\Livre.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T16:53:57.967Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-24T16:53:57.967Z"
             },
             {
               "$type": "Document",
