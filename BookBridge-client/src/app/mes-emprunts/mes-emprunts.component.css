@@ -1,0 +1,146 @@
+.table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .table td img {
+    max-width: 60px;
+    max-height: 60px;
+    object-fit: cover;
+  }
+  
+  
+  .btn-outline-primary {
+    border-color: #0d6efd;
+    color: #0d6efd;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #0d6efd;
+    color: #fff;
+  }
+  
+  .btn-outline-danger {
+    border-color: #dc3545;
+    color: #dc3545;
+  }
+  
+  .btn-outline-danger:hover {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  
+  /* Style pour les cellules de l'entête */
+  thead th {
+  
+    background-color: #f1f1f1;
+  }
+  
+  /* Style général de la section */
+  .container {
+    padding: 50px 15px;
+  }
+  
+  .text-center h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .text-center p {
+    font-size: 1.25rem;
+    color: #6c757d;
+  }
+  
+  .text-center button {
+    font-size: 1.1rem;
+    padding: 10px 30px;
+    border-radius: 30px;
+  }
+  
+  /* Formulaire de recherche */
+  form {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form .form-label {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #495057;
+  }
+  
+  form .form-control {
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 1rem;
+  }
+  
+  form .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  form .form-check-label {
+    font-size: 1rem;
+    color: #495057;
+  }
+  
+  /* Boutons */
+  button[type="submit"] {
+    font-size: 1rem;
+    padding: 12px 20px;
+    border-radius: 50px;
+    display: block;
+  }
+  
+  button[type="submit"]:hover {
+    opacity: 0.9;
+  }
+  
+  button[type="submit"].btn-primary {
+    background-color: #007bff;
+    border: none;
+  }
+  
+  button[type="submit"].btn-secondary {
+    background-color: #6c757d;
+    border: none;
+  }
+  
+  button[type="submit"].btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  button[type="submit"].btn-secondary:hover {
+    background-color: #5a6268;
+  }
+  
+  /* Réinitialisation des filtres */
+  .mt-3 {
+    margin-top: 20px;
+  }
+  
+  .row.mt-3 {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Styles responsives */
+  @media (max-width: 768px) {
+    .form-label {
+      font-size: 0.9rem;
+    }
+  
+    .form-control {
+      font-size: 0.9rem;
+    }
+  
+    .btn-lg {
+      font-size: 0.9rem;
+      padding: 10px 20px;
+    }
+  }
+  

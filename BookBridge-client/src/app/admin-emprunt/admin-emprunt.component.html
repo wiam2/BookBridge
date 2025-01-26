@@ -1,0 +1,80 @@
+<div class="main-content">
+    <header class="header">
+        <div class="header-top">
+            <h2>Chercher un utilisateur</h2>
+            
+        </div>
+        <div class="filters">
+            <div class="search-box">
+                <input type="text" placeholder="Search users..." />
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="table-container">
+            <section class="text-center mb-5">
+                <h1 class="fw-bold mb-3" style="color: rgb(237, 45, 45);">Sofia est pénalisée ! </h1>
+              </section>
+            <div class="info-container">
+                <!-- Ligne pour Nom -->
+                <div class="info-row">
+                  <p class="info-label">Nom :</p>
+                  <p class="info-value">Sofia Hm</p>
+                </div>
+                <!-- Ligne pour Email -->
+                <div class="info-row">
+                  <p class="info-label">Email :</p>
+                  <p class="info-value">sofiagmail.com</p>
+                </div>
+              </div>
+              <section class="text-center mb-5">
+                <h1 class="fw-bold mb-3" style="color: black;">📚 Les emprunts de Sofia</h1>
+              </section>
+              <div class="table-responsive shadow-lg rounded">
+                <table class="table table-hover align-middle">
+                  <thead class="bg-success text-white">
+                  <tr>
+                    <th>Image</th>
+                    <th>Titre</th>
+                    <th>Date Emprunt</th>
+                    <th>État</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr *ngFor="let livre of livres" class="border-bottom">
+                    <td>
+                      <img *ngIf="livre.image" [src]="livre.image"
+                           alt="{{ livre.titre }}"
+                           class="img-thumbnail rounded"
+                           style="width: 60px; height: auto;">
+            
+                    </td>
+                    <td class="fw-semibold">{{ livre.titre }}</td>
+                    <td>{{ livre.date }}</td>
+                    <td>
+                      <span 
+                        class="badge text-white px-2 py-1"
+                        [ngClass]="{
+                          'bg-success': livre.etat === 'Rendu',
+                          'bg-danger': livre.etat === 'En retard',
+                          'bg-primary': livre.etat === 'En cours'
+                        }">
+                        {{ livre.etat }}
+                      </span>
+                    </td>
+                  
+                  </tr>
+                  </tbody>
+                </table>
+              </div>
+        </div>
+    </main>
+                
+                       
+                       
+    
+                  
+              
+              
+</div>

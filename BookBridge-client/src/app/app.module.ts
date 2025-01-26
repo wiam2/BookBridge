@@ -20,6 +20,9 @@ import { LecteurNAvComponent } from './lecteur-nav/lecteur-nav.component';
 
 import { AdminBooksComponentComponent } from './admin-books-component/admin-books-component.component';
 import { BookFormComponent } from './book-form/book-form.component';
+import { EmprunterLecteurComponent } from './emprunter-lecteur/emprunter-lecteur.component';
+import { MesEmpruntsComponent } from './mes-emprunts/mes-emprunts.component';
+import { AdminEmpruntComponent } from './admin-emprunt/admin-emprunt.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +39,10 @@ import { BookFormComponent } from './book-form/book-form.component';
     BookDetailsComponent,
     LecteurNAvComponent,
     AdminBooksComponentComponent,
-    BookFormComponent
+    BookFormComponent,
+    EmprunterLecteurComponent,
+    MesEmpruntsComponent,
+    AdminEmpruntComponent
   ],
   imports: [
     BrowserModule,

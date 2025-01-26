@@ -1,0 +1,35 @@
+<app-lecteur-nav></app-lecteur-nav>
+<div *ngIf="book" class="book-details-container">
+    <div class="d-flex justify-content-center mt-3">
+        <div class="alert alert-danger alert-dismissible fade show text-center" *ngIf="showAlert" role="alert" style="max-width: 500px;">
+          <strong>Erreur :</strong> Vous êtes pénalisé ! Réessayez plus tard.
+          <button type="button" class="btn-close" (click)="closeAlert()" aria-label="Close"></button>
+        </div>
+      </div>
+      
+  <div class="book-content">
+    <!-- Image à gauche -->
+    <div class="book-image">
+        <img *ngIf="book.image" [src]="'assets/images/Midnight_Sun.jpg'" alt="{{ book.titre }}" style="max-height: 300px; object-fit: contain;">
+      </div>
+
+    <!-- Texte et bouton à droite -->
+    <div class="book-info">
+      <h3>Midnight Sun</h3>
+      <p><i class="bi bi-person-fill me-2"></i><strong>Auteur :</strong> Stephenie Meyer</p>
+      <p><i class="bi bi-bookmark-fill me-2"></i><strong>Éditeur :</strong>Little, Brown</p>
+      <p><i class="bi bi-tag-fill me-2"></i><strong>Genre :</strong> Young adult, romance novel, vampire fiction</p>
+      <p><i class="bi bi-calendar-fill me-2"></i><strong>Année :</strong> 2008</p>
+      <p><i class="bi bi-file-earmark-pdf-fill me-2"></i><strong>Date d'emprunt :</strong> 21-02-2024</p>
+      <p><i class="bi bi-file-earmark-pdf-fill me-2"></i><strong>Date de retour :</strong> 21-04-2024</p>
+      <p><i class="bi bi-calendar-fill me-2"></i><strong>État :</strong>  <span 
+        class="badge text-white px-2 py-1"
+       class="bg-danger">
+        En retard
+      </span></p>
+      
+     
+      
+    </div>
+  </div>
+</div>

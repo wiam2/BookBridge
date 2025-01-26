@@ -13,6 +13,9 @@ import {EspaceLecteurComponent} from "./espace-lecteur/espace-lecteur.component"
 import {BookDetailsComponent} from "./book-details/book-details.component";
 import {AdminBooksComponentComponent} from "./admin-books-component/admin-books-component.component";
 import {BookFormComponent} from "./book-form/book-form.component";
+import { EmprunterLecteurComponent } from './emprunter-lecteur/emprunter-lecteur.component';
+import { MesEmpruntsComponent } from './mes-emprunts/mes-emprunts.component';
+import { AdminEmpruntComponent } from './admin-emprunt/admin-emprunt.component';
 
 const routes: Routes = [
   // Ajoutez ici vos routes
@@ -26,9 +29,13 @@ const routes: Routes = [
       {path:'profil', component:ProfilBiblioComponent},
       { path: 'Admin-books', component:AdminBooksComponentComponent },
       { path: 'Form-book', component:BookFormComponent},
+      { path: 'emprunt', component:AdminEmpruntComponent},
       { path: 'edit-book/:id', component: BookFormComponent }]},
+      
   { path: 'EspaceLecteur', component: EspaceLecteurComponent },
   { path: 'book-details/:id', component: BookDetailsComponent },
+  { path: 'emprunterLecteur', component: EmprunterLecteurComponent },
+  { path: 'mesemprunts', component: MesEmpruntsComponent },
   ]
 
 

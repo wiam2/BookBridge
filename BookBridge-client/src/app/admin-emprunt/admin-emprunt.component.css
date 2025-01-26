@@ -1,0 +1,275 @@
+
+  
+  .logo {
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .nav-menu {
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .nav-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    border-radius: 8px;
+    color: #666;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  
+  .nav-item:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .nav-item.active {
+    background-color: #e8f0fe;
+    color: #1a73e8;
+  }
+  
+  .logout-btn {
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    color: #dc3545;
+    cursor: pointer;
+  }
+  
+  .logout-btn:hover {
+    background-color: #fff5f5;
+  }
+  
+  /* Main Content Styles */
+  
+  
+  .header {
+    background-color: white;
+    padding: 24px 32px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .header-top h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .add-user-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .add-user-btn:hover {
+    background-color: #1557b0;
+  }
+  
+  .filters {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .search-box {
+    flex: 1;
+    position: relative;
+  }
+  
+  .search-box input {
+    width: 100%;
+    padding: 8px 16px 8px 40px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .search-box search-icon {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #666;
+  }
+  
+  select {
+    padding: 8px 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: white;
+  }
+  
+  /* Table Styles */
+  .main {
+    padding: 32px;
+  }
+  
+  .table-container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th {
+   
+    padding: 16px 24px;
+    border-bottom: 1px solid #ddd;
+    color: #666;
+    font-weight: 600;
+  }
+  
+  td {
+    padding: 16px 24px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .avatar {
+    width: 40px;
+    height: 40px;
+    background-color: #e8f0fe;
+    color: #1a73e8;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+  }
+  
+  .badge {
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 14px;
+  }
+  
+  .badge.admin {
+    background-color: #f3e8ff;
+    color: #9333ea;
+  }
+  
+  .badge.active {
+    background-color: #dcfce7;
+    color: #16a34a;
+  }
+  
+  .badge.inactive {
+    background-color: #fee2e2;
+    color: #dc2626;
+  }
+  
+  .actions {
+   
+    gap: 16px;
+  }
+  
+  .edit-btn, .delete-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .edit-btn {
+    color: #1a73e8;
+  }
+  
+  .edit-btn:hover {
+    color: #1557b0;
+  }
+  
+  .delete-btn {
+    color: #dc3535;
+  }
+  
+  .delete-btn:hover {
+    color: #dc3535;
+  }
+
+/* Image qui remplit l'espace */
+.full-image {
+    width: 100%; /* occupe 100% de la largeur */
+    height: 100%; /* occupe 100% de la hauteur */
+    object-fit: cover; /* l'image couvre toute la surface sans déformer */
+}
+
+/* Optionnel : Centrer le texte sous l'image */
+.welcome-section {
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    width:500px;
+    height: 100%;
+    color: white;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espacement entre les lignes */
+  }
+  
+  .info-row {
+    display: flex;
+    align-items: center; /* Aligne verticalement les éléments */
+    gap: 10px; /* Espacement entre l'étiquette et la valeur */
+  }
+  
+  .info-label {
+    font-weight: bold;
+    font-size: 1.5rem; /* Taille pour les étiquettes */
+    color: #F0A500; /* Couleur des étiquettes */
+  }
+  
+  .info-value {
+    font-size: 1.5rem; /* Taille pour les valeurs */
+    color: #0056b3; /* Couleur des valeurs */
+  }
+  
