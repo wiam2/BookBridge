@@ -21,12 +21,15 @@ const routes: Routes = [
   {path:'registerLecteur',component:RegisterLecteurComponent},
   {path:'creationV',component:CreationVComponent},
   {path:'registerBibliothécaire',component:RegisterBiblioComponent},
-  {path:'espacebiblio',component:EspaceBiblioComponent,children:[{path :'GesUser',component:GestionuserComponent},{path:'profil',component:ProfilBiblioComponent}]},
+  {path:'espacebiblio',component:EspaceBiblioComponent,children:[
+    {path :'GesUser',component:GestionuserComponent},
+      {path:'profil', component:ProfilBiblioComponent},
+      { path: 'Admin-books', component:AdminBooksComponentComponent },
+      { path: 'Form-book', component:BookFormComponent},
+      { path: 'edit-book/:id', component: BookFormComponent }]},
   { path: 'EspaceLecteur', component: EspaceLecteurComponent },
   { path: 'book-details/:id', component: BookDetailsComponent },
-  { path: 'Admin-books', component:AdminBooksComponentComponent },
-  { path: 'Form-book', component:BookFormComponent},
-  { path: 'edit-book/:id', component: BookFormComponent }]
+  ]
 
 
 

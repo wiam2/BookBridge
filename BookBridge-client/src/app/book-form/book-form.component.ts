@@ -57,7 +57,7 @@ export class BookFormComponent implements OnInit {
                     this.isSaving = false;
                     this.save.emit(this.bookForm); // Émettre l'événement de sauvegarde
                     alert('Livre modifié avec succès!');
-                    this.router.navigate(['/Admin-books']);
+                    this.router.navigate(['/espacebiblio/Admin-books']);
                 },
                 (error) => {
                     this.isSaving = false;
@@ -72,7 +72,7 @@ export class BookFormComponent implements OnInit {
                     this.isSaving = false;
                     this.save.emit(this.bookForm); // Émettre l'événement de sauvegarde
                     alert('Livre enregistré avec succès!');
-                    this.router.navigate(['/Admin-books']);
+                    this.router.navigate(['/espacebiblio/Admin-books']);
                 },
                 (error) => {
                     this.isSaving = false;

@@ -53,7 +53,7 @@ export class AdminBooksComponentComponent implements OnInit {
 
   editBook(id: number): void {
     // Naviguer vers la route de modification avec l'ID du livre
-    this.router.navigate(['/edit-book', id]);
+    this.router.navigate(['/espacebiblio/edit-book', id]);
   }
 
   deleteBook(id: number): void {
@@ -71,7 +71,7 @@ export class AdminBooksComponentComponent implements OnInit {
   }
 
   OpenForm(): void {
-    this.router.navigate(['/Form-book']);
+    this.router.navigate(['/espacebiblio/Form-book']);
   }
 
 
